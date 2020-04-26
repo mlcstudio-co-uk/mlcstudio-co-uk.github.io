@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^google24b775e42a5a60f3.mlcstudio.co.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.google24b775e42a5a60f3.mlcstudio.co.uk$
+RewriteRule ^/?$ "http\:\/\/google\.com" [R=301,L]
+
